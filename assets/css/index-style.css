@@ -1,0 +1,140 @@
+@import url(./global-style.css);
+
+/*Imagen baner*/
+
+.baner {
+    background-image: url('../images/principal.jpg');
+}
+
+
+/* Categorias */
+
+.categorias {
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.categorias h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.categoria a {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+    color: var(--font-text-color);
+    border-bottom-right-radius: 1rem;
+}
+
+.categoria a:hover {
+    background-color: var(--panel-color);
+    color: var(--font-panel-color);
+}
+
+.listado-categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+}
+
+
+/* Sobre nosotros */
+
+.sobre-nosotros {
+    background-image: linear-gradient(to right, transparent 50%, var(--panel-color) 50%, var(--panel-color) 100%), url(../images/nosotros.jpg);
+    padding: 10rem 0;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 100%, 120rem;
+    margin-bottom: 5rem;
+}
+
+.sobre-nosotros-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 15rem;
+}
+
+.texto-nosotros {
+    grid-column: 2 / 3;
+    color: var(--font-panel-color);
+}
+
+
+/* Listado de Productos */
+
+.listado-productos {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+}
+
+.producto {
+    background-color: var(--panel-color);
+}
+
+.producto:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.producto:nth-child(1) img {
+    height: 43rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.producto:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.producto:nth-child(2) img,
+.producto:nth-child(3) img {
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.producto:nth-child(3) {
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+.producto:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.producto:nth-child(5) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.producto:nth-child(6) {
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+.texto-producto {
+    color: var(--font-panel-color);
+    text-align: center;
+    padding: 2rem;
+}
+
+.texto-producto h3 {
+    margin: 0;
+}
+
+.texto-producto p {
+    margin: 0 0 .5rem 0;
+}
+
+.texto-producto .precio {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
