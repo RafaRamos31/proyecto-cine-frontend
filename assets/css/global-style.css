@@ -3,7 +3,7 @@
 :root {
     /*Objetos*/
     --bg-color: #7209B7;
-    --footer-bg:#1a1a1a;
+    --footer-bg: #1a1a1a;
     --panel-1-color: #1a1a1a;
     --panel-2-color: #FFBA08;
     --button-1-color: #0c62a0;
@@ -34,6 +34,7 @@ body {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 2rem;
     line-height: 1.5;
+    background-color: var(--panel-1-color);
 }
 
 a {
@@ -48,7 +49,7 @@ h4,
 h5,
 h6 {
     font-family: 'Bebas Neue', serif;
-    margin: 0 0 5rem 0;
+    margin: 0 0 0 0;
 }
 
 h1 {
@@ -100,10 +101,11 @@ img {
     background-color: var(--button-2-hover-color);
 }
 
-.texto-panel{
+.texto-panel {
     padding: 2rem;
     color: var(--font-panel-color);
 }
+
 
 /* Utilitarios */
 
@@ -113,7 +115,8 @@ img {
 
 
 /* Header y Navegacion */
-header{
+
+header {
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 20rem;
     background-color: var(--bg-color);
@@ -129,11 +132,12 @@ header{
     color: var(--font-light-color);
 }
 
-header form, header .auth{
+header form,
+header .auth {
     padding: 2rem 0;
 }
 
-.input-busqueda{
+.input-busqueda {
     padding-left: 1rem;
     border-radius: 30px;
     border: 0;
@@ -145,6 +149,7 @@ header form, header .auth{
 .contenedor-navegacion {
     border-top: .1rem solid var(--separator-color);
 }
+
 
 /*.baner {
     background-repeat: no-repeat;
@@ -160,7 +165,7 @@ header form, header .auth{
     justify-content: space-around;
 }
 
-.nav-principal .btn-sec{
+.nav-principal .btn-sec {
     text-align: center;
     width: 100%;
     height: 100%;
