@@ -1,0 +1,515 @@
+*
+
+
+.uno{
+    background-color: #7209B7;
+    width: 1440px;
+    height: 1080px;
+    margin: auto;
+}
+
+.dos{
+    background-color:#7209B7;
+    width: 970px;
+    height: 119px;
+    float: right;
+}
+
+.botones{
+    padding: 34px;
+}
+
+.input{
+    width: 272px;
+    height: 44px;
+}
+
+.boton{
+    width: 146px;
+    height: 50px;
+    background-color: #FFBA08;
+}
+
+.boton2{
+    width: 211px;
+    height: 50px;
+    background-color: #FFBA08;
+}
+
+
+.tab{
+    margin-left: 35px;
+}
+
+.tab2{
+    margin-left: 183px;
+}
+
+.tamano{
+    font-size: 28px;
+}
+
+.tamano1{
+    font-size: 28px;
+}
+
+.tamano2{
+    font-size: 34px;
+}
+
+.nav-principal{
+    width: 1440px;
+    height: 50px;
+    background-color: #FFBA08;
+    display: flex;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    display: inline-block;
+    padding-left: 80px;
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+.Texto{
+    width: 262px;
+    height: 30px;
+    float: left;
+    padding: 0;
+    display: block;
+    font-size: 34px;
+    margin-left: 40px;
+    margin-top: 40px;
+    color: #D9D9D9;
+    ;
+}
+
+.tres{
+    height: 783px ;
+}
+
+.footer-conf{
+    height:133px;
+    background-color: black;
+    display: flex;
+}
+
+.imagenes{
+    width: 100px;
+    height: 100px;
+    
+}
+
+footer a img{
+    width: 117px;
+    height: 111px;
+}
+
+.g{
+    display: flex;
+    padding-left: 544px;
+}
+
+.paddding-bird{
+    padding-left: 117px;
+}
+
+.text-center{
+    text-align: center;
+  
+
+}
+
+
+
+.img1{
+    width: 600px;
+    height: 338px;
+    margin-top: 15px;
+}
+
+.move{
+    margin-left: 117px;
+}
+
+.tamanoo{
+    width: 538px;
+    height: 359px;
+}
+
+.editar-h2{
+    margin: 0;
+    padding: 45px 0 21px 0;
+    color: var(--text-body);
+    font-size: 34px;
+}
+
+.direcciones{
+    text-align: end;
+    padding-right: 241px;
+    padding-top: 30px;
+    font-size: 24px;
+    color: white;
+}
+
+.direcciones-dos{
+    text-align: end;
+    padding-right: 350px;
+    font-size: 24px;
+    color: white;
+    padding-top: 27px;
+}
+
+
+
+.uno{
+    background-color: #7209B7;
+    width: 1440px;
+    height: 1080px;
+    margin: auto;
+}
+
+.dos{
+    background-color:#7209B7;
+    width: 970px;
+    height: 119px;
+    float: right;
+}
+
+.botones{
+    padding: 34px;
+}
+
+.input{
+    width: 272px;
+    height: 44px;
+}
+
+.boton{
+    width: 146px;
+    height: 50px;
+    background-color: #FFBA08;
+}
+
+.boton2{
+    width: 211px;
+    height: 50px;
+    background-color: #FFBA08;
+}
+
+
+.tab{
+    margin-left: 35px;
+}
+
+.tab2{
+    margin-left: 183px;
+}
+
+.tamano{
+    font-size: 28px;
+}
+
+.tamano1{
+    font-size: 28px;
+}
+
+.tamano2{
+    font-size: 34px;
+}
+
+.nav-principal{
+    width: 1440px;
+    height: 50px;
+    background-color: #FFBA08;
+    display: flex;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    display: inline-block;
+    padding-left: 80px;
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+.Texto{
+    width: 262px;
+    height: 30px;
+    float: left;
+    padding: 0;
+    display: block;
+    font-size: 34px;
+    margin-left: 40px;
+    margin-top: 40px;
+    color: #D9D9D9;
+    ;
+}
+
+.tres{
+    height: 783px ;
+}
+
+.footer-conf{
+    height:133px;
+    background-color: black;
+    display: flex;
+}
+
+.imagenes{
+    width: 100px;
+    height: 100px;
+    
+}
+
+footer a img{
+    width: 117px;
+    height: 111px;
+}
+
+.g{
+    display: flex;
+    padding-left: 544px;
+}
+
+.paddding-bird{
+    padding-left: 117px;
+}
+
+.text-center{
+    text-align: center;
+    color: black;
+
+}
+
+.flex-promociones{
+    display: flex;
+    background-color: var(--bg-body);
+}
+
+.flex-promociones div{
+    background-color: var(--bg-panel);
+    margin: 110px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    padding: 20px;
+    width: 238px;
+height: 321px;
+left: 146px;
+top: 395px;
+align-items: right;
+}
+
+.flex-promociones h4{
+    font-style: monospace;
+    position: center;
+}
+
+
+
+.img1{
+    width: 600px;
+    height: 338px;
+    margin-top: 15px;
+}
+
+.move{
+    margin-left: 117px;
+}
+
+.tamanoo{
+    width: 538px;
+    height: 359px;
+}
+
+
+
+.direcciones{
+    text-align: end;
+    padding-right: 241px;
+    padding-top: 30px;
+    font-size: 24px;
+    color: white;
+}
+
+.direcciones-dos{
+    text-align: end;
+    padding-right: 350px;
+    font-size: 24px;
+    color: white;
+    padding-top: 27px;
+}
+
+
+
+.uno{
+    background-color: #7209B7;
+    width: 1440px;
+    height: 1080px;
+    margin: auto;
+}
+
+.dos{
+    background-color:#7209B7;
+    width: 970px;
+    height: 119px;
+    float: right;
+}
+
+.botones{
+    padding: 34px;
+}
+
+.input{
+    width: 272px;
+    height: 44px;
+}
+
+.boton{
+    width: 146px;
+    height: 50px;
+    background-color: #FFBA08;
+}
+
+.boton2{
+    width: 211px;
+    height: 50px;
+    background-color: #FFBA08;
+}
+
+
+.tab{
+    margin-left: 35px;
+}
+
+.tab2{
+    margin-left: 183px;
+}
+
+.tamano{
+    font-size: 28px;
+}
+
+.tamano1{
+    font-size: 28px;
+}
+
+.tamano2{
+    font-size: 34px;
+}
+
+.nav-principal{
+    width: 1440px;
+    height: 50px;
+    background-color: #FFBA08;
+    display: flex;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    display: inline-block;
+    padding-left: 80px;
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+.Texto{
+    width: 262px;
+    height: 30px;
+    float: left;
+    padding: 0;
+    display: block;
+    font-size: 34px;
+    margin-left: 40px;
+    margin-top: 40px;
+    color: #D9D9D9;
+    ;
+}
+
+.tres{
+    height: 783px ;
+}
+
+.footer-conf{
+    height:133px;
+    background-color: black;
+    display: flex;
+}
+
+.imagenes{
+    width: 100px;
+    height: 100px;
+    
+}
+
+footer a img{
+    width: 117px;
+    height: 111px;
+}
+
+.g{
+    display: flex;
+    padding-left: 544px;
+}
+
+.paddding-bird{
+    padding-left: 117px;
+}
+
+.text-center{
+    text-align: center;
+color: var(--text-body);
+
+}
+
+.flex{
+    display: flex;
+}
+
+.img1{
+    width: 600px;
+    height: 338px;
+    margin-top: 15px;
+}
+
+.move{
+    margin-left: 117px;
+}
+
+.tamanoo{
+    width: 538px;
+    height: 359px;
+}
+
+
+
+.direcciones{
+    text-align: end;
+    padding-right: 241px;
+    padding-top: 30px;
+    font-size: 24px;
+    color: white;
+}
+
+.direcciones-dos{
+    text-align: end;
+    padding-right: 350px;
+    font-size: 24px;
+    color: white;
+    padding-top: 27px;
+}
+
