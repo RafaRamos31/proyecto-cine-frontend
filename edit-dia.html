@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Grupo #1 Diseño de compiladores 2PAC 2022">
+    <title>Editar dia | Cine-Sistemas</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/global-style.css">
+    <link rel="stylesheet" href="./assets/css/edit-dia-style.css">
+</head>
+<body>
+    <header class="modal-contenedor">
+        <h2>Editar cartelera - Dia</h2>
+    </header>
+    <main class="modal-contenedor">
+        <div class="panel">
+            <h3>Ubicación</h3>
+            <label for="">Complejo</label>
+            <input type="text" name="" id="" readonly="readonly" value=""><br>
+            <label for="">Fecha</label>
+            <input type="date" name="" id="" readonly="readonly" value=""><br>
+            <label for="">Sala</label>
+            <input type="text" name="" id="" readonly="readonly" value=""><br>
+            <h3>Agregar pelicula</h3>
+            <form action=""></form>
+                <label for="">Pelicula</label>
+                <select name="" id="">
+                    <option value="0">Seleccione una pelicula</option>
+                </select><br>
+                <label for="">Hora Inicio</label>
+                <input type="time" name="" id=""><br>
+                <input type="submit" class="btn-ter" value="Agregar">
+            </form>
+            <p class="error" id="err-dia"></p>
+            <h3>Peliculas registradas</h3>
+            <table>
+                <tr>
+                    <th class="pelicula">Pelicula</th>
+                    <th>Hora Inicio</th>
+                    <th> </th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><button class="btn-ter">Eliminar</button></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><button class="btn-ter">Eliminar</button></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><button class="btn-ter">Eliminar</button></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><button class="btn-ter">Eliminar</button></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><button class="btn-ter">Eliminar</button></td>
+                </tr>
+            </table>
+            <a href="./edit-cartelera.html" class="btn-ter">Guardar y Salir</a>
+        </div>
+    </main>
+</body>
+</html>
