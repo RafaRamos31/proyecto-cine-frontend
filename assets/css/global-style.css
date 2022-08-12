@@ -227,7 +227,6 @@ header .auth{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-bottom: 2rem;
 }
 
 .nav-principal .btn-prim{

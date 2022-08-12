@@ -2,6 +2,10 @@
 
 /*Codigo especifico de la pagina*/
 
+h1{
+    margin-top: 2rem;
+}
+
 .contratacion{
     text-align: left;
 }
