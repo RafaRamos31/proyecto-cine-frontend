@@ -5,31 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta author="Grupo #1 Diseño de compiladores 2PAC 2022">
-    <title>Cambiar contraseña | Cine-Sistemas</title>
-    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <title>Registrarse | Cine-Sistemas</title>
+    <link rel="stylesheet" href="../assets/css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/global-style.css">
-    <link rel="stylesheet" href="./assets/css/recovery-style.css">
+    <link rel="stylesheet" href="../assets/css/global-style.css">
+    <link rel="stylesheet" href="../assets/css/login-style.css">
 </head>
 <body>
     <header class="modal-contenedor">
-        <h2>Cambiar contraseña</h2>
+        <a href="./login.html" class="inactive">Iniciar Sesión</a>
+        <a href="" class="active">Registrarse</a>
     </header>
     <main class="modal-contenedor">
         <div class="panel">
             <form action="">
-                <label for="">Usuario/Correo Electrónico</label>
-                <input type="text" name="" id="" readonly="readonly" value="Usuario"><br>
+                <label for="">Usuario</label>
+                <input type="text" name="" id=""><br>
                 <label for="">Contraseña</label>
                 <input type="password" name="" id=""><br>
-                <label for="">Confirmar Contraseña</label>
-                <input type="password" name="" id=""><br>
-                <input type="submit" class="btn-ter" value="Actualizar">
-                <p class="error" id="err-password"></p>
+                <input type="submit" class="btn-ter" value="Ingresar">
+                <p class="error" id="err-login"></p>
             </form>
         </div>
+        <p>¿Olvidó su contraseña? Pruebe con las <a href="./recovery.html" class="recuperacion">Opciones de Recuperación</a></p>
     </main>
 </body>
 </html>

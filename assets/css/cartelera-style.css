@@ -49,3 +49,8 @@
     text-align: center;
     padding: 1.5rem;
 }
+
+.movie-grid .info {
+    padding: 0;
+    height: auto;
+}
