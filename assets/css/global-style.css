@@ -287,3 +287,28 @@ header .auth{
     padding-top: 2rem;
     margin-bottom: 0;
 }
+
+.tamImg{
+    width: 600px;
+    height: 295px;
+    float: right;
+}
+
+.divProm{
+    width: 500px;
+}
+
+.tit{
+    color: var(--bg-headerS);
+}
+
+.titCua{
+    color: var(--bg-button-3);
+}
+
+.btn-Prom{
+    font-size: 30px;
+    padding: 7px 40px;
+    background-color: var(--bg-body);
+    color: white;
+}
